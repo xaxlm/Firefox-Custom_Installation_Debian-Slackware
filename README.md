@@ -3,7 +3,7 @@ This is a Bash script in which Mozilla Firefox is custom installed in Debian 9 a
 
 - firefox-56.0.1
 
-- Last Update: 246/10/2017
+- Last Update: 24/10/2017
 
 Installation
 
