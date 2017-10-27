@@ -5,13 +5,11 @@ This is a Bash script in which Mozilla Firefox is custom installed in Debian 9 a
 - [Update date: 24/10/2017] firefox-56.0.1
 
 <b>Installation</b>
-
 To install only you have to give execute permissions as root and execute:
 
 <code>#chmod +x file<code>
 <code>#./file<code>
   
-  <b>Uninstall</b>
-  
-  Run the file "remove.sh" as the root user:
-  #bash /installation directory/firefox/remove.sh
+<b>Uninstall</b>
+Run the file "remove.sh" as the root user:
+#bash /installation directory/firefox/remove.sh
