@@ -5,12 +5,15 @@ Code optimization will be implemented gradually. The code can be downloaded, use
 - [Update date: 26/072017] firefox-56.0.2
 - [Update date: 24/10/2017] firefox-56.0.1
 
-<b>Installation</b>
+INSTALLATION
+
 To install only you have to give execute permissions as root and execute:
 
-<code>#chmod +x file<code>
-<code>#./file<code>
+#chmod +x file
+#./file
   
-<b>Uninstall</b>
+UNISTALL
+
 Run the file "remove.sh" as the root user:
+
 #bash /installation directory/firefox/remove.sh
