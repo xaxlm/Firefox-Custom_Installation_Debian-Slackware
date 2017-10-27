@@ -14,4 +14,4 @@ To install only you have to give execute permissions as root and execute:
   <b>Uninstall</b>
   
   Run the file "remove.sh" as the root user:
-  //#bash /installation directory/firefox/remove.sh
+  #bash /installation directory/firefox/remove.sh
