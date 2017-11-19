@@ -1,8 +1,8 @@
 #!/bin/bash
-# Última actualización: 26/10/2017
+# Última actualización: 19/11/2017
 cd /
 # Se descarga Firefox
-wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/56.0.2/linux-x86_64/es-MX/firefox-56.0.2.tar.bz2
+wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/57.0/linux-x86_64/es-MX/firefox-57.0.tar.bz2
 cd /usr/local/
 echo 'Se va a instalar en /usr/local/...'
 read -p "Ingresa el nombre del directorio principal de instalacion, si no existe se creará: " DIRINST
@@ -20,8 +20,8 @@ if [ -d $DIRINST ];
 		cd $DIRINST
 fi
 sleep 2
-mv /firefox-56.0.2.tar.bz2 /usr/local/$DIRINST
-tar jvxf firefox-56.0.2.tar.bz2
+mv /firefox-57.0.tar.bz2 /usr/local/$DIRINST
+tar jvxf firefox-57.0.tar.bz2
 #
 #App a Menú
 cd /usr/share/applications/
@@ -69,7 +69,7 @@ chmod 744 remove.sh
 touch README.txt
 echo 'Mozilla Firefox' > README.txt
 echo 'Idioma=es_MX' >> README.txt
-echo 'Version=56.0.2' >> README.txt
+echo 'Version=57.0' >> README.txt
 echo 'Arquitectura=x86_64' >> README.txt
 echo 'Esta es una instalación no invasiva.' >> README.txt
 echo 'Para desinstalar ejecute el fichero remove.sh como root.' >> README.txt
@@ -95,7 +95,7 @@ echo -ne '[=================================>      ](83.30%)\r';sleep 0.2
 echo -ne '[====================================>   ](91.64%)\r';sleep 0.2
 echo -ne '[=======================================>](100.00%)\r';sleep 0.2
 echo -ne '\n'
-rm -rf /usr/local/$DIRINST/firefox-56.0.2.tar.bz2
+rm -rf /usr/local/$DIRINST/firefox-57.0.tar.bz2
 if [ -d /home/*/.cache/mozilla/firefox/ ];
 	then
 		rm -rf /home/*/.cache/mozilla/firefox/
