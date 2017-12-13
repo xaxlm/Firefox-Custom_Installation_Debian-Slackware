@@ -4,7 +4,7 @@ Code optimization will be implemented gradually. The code can be downloaded, use
 
 - [Update date: 26/07/2017] firefox-56.0.2
 - [Update date: 24/10/2017] firefox-57.0.1
-- [Jpdate date: 13/12/2017] firefox-57.0.2
+- [Update date: 13/12/2017] firefox-57.0.2
 
 INSTALLATION
 
