@@ -95,7 +95,7 @@ echo -ne '[=================================>      ](83.30%)\r';sleep 0.2
 echo -ne '[====================================>   ](91.64%)\r';sleep 0.2
 echo -ne '[=======================================>](100.00%)\r';sleep 0.2
 echo -ne '\n'
-rm -rf /usr/local/$DIRINST/firefox-65.0 tar.bz2
+rm -rf /usr/local/$DIRINST/firefox-65.0.tar.bz2
 if [ -d /home/*/.cache/mozilla/firefox/ ];
 	then
 		rm -rf /home/*/.cache/mozilla/firefox/
