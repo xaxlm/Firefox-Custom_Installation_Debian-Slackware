@@ -20,7 +20,7 @@ This is a Bash script in which Mozilla Firefox is custom installed in Debian 9 a
 - [Update date: 26/07/2017] firefox-56.0.2
 - [Update date: 24/10/2017] firefox-56.0.1
 
-<b>INSTALLATION</b>
+"<b>INSTALLATION</b>"
 
 To install only you have to give execute permissions as root and execute:
 
