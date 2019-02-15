@@ -25,6 +25,7 @@ This is a Bash script in which Mozilla Firefox is custom installed in Debian 9 a
 To install only you have to give execute permissions as root and execute:
 
 <code>#chmod +x [file]<code>
+  
 <code>#./[file]<code>
   
 <b>UNISTALL</b>
