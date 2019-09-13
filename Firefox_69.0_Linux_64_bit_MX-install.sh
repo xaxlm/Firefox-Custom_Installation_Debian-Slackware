@@ -1,5 +1,5 @@
 #!/bin/bash
-# Última actualización: 18/08/2019
+# Última actualización: 12/09/2019
 cd /
 # Se descarga Firefox
 wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/69.0/linux-x86_64/es-MX/firefox-69.0.tar.bz2
