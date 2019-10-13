@@ -1,8 +1,8 @@
 #!/bin/bash
-# Última actualización: 09/10/2019
+# Última actualización: 13/10/2019
 cd /
 # Se descarga Firefox
-wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/69.0.2/linux-x86_64/es-MX/firefox-69.0.2.tar.bz2
+wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/69.0.3/linux-x86_64/es-MX/firefox-69.0.3.tar.bz2
 cd /usr/local/
 echo 'Se va a instalar en /usr/local/...'
 read -p "Ingresa el nombre del directorio principal de instalacion, si no existe se creará: " DIRINST
@@ -20,14 +20,14 @@ if [ -d $DIRINST ];
 		cd $DIRINST
 fi
 sleep 2
-mv /firefox-69.0.2.tar.bz2 /usr/local/$DIRINST
-tar jvxf firefox-69.0.2.tar.bz2
+mv /firefox-69.0.3.tar.bz2 /usr/local/$DIRINST
+tar jvxf firefox-69.0.3.tar.bz2
 #
 #App a Menú
 cd /usr/share/applications/
 touch firefox.desktop
 echo '[Desktop Entry]' > firefox.desktop
-echo 'Version=69.0.2' >> firefox.desktop
+echo 'Version=69.0.3' >> firefox.desktop
 echo 'Name=Firefox' >> firefox.desktop
 echo 'Comment=Suite Navegador Web' >> firefox.desktop
 echo 'Exec=/usr/local/'$DIRINST'/firefox/firefox' >> firefox.desktop
@@ -69,7 +69,7 @@ chmod 744 remove.sh
 touch README.txt
 echo 'Mozilla Firefox' > README.txt
 echo 'Idioma=es_MX' >> README.txt
-echo 'Version=69.0.2' >> README.txt
+echo 'Version=69.0.3' >> README.txt
 echo 'Arquitectura=64-bit' >> README.txt
 echo 'Esta es una instalación no invasiva.' >> README.txt
 echo 'Para desinstalar ejecute el fichero remove.sh como root.' >> README.txt
