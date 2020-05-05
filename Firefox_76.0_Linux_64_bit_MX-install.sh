@@ -1,5 +1,5 @@
 #!/bin/bash
-# Última actualización: 05/04/2020
+# Última actualización: 05/05/2020
 cd /
 # Se descarga Firefox
 wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/76.0/linux-x86_64/es-MX/firefox-76.0.tar.bz2
