@@ -1,8 +1,8 @@
 # Firefox--Custom-Installation-Debian9-Slackware14.2--
 This is a Bash script in which Mozilla Firefox is custom installed in Debian 9 and Slackware 14.2, with more complete control of the installation site. Code optimization will be implemented gradually. The code can be downloaded, used or modified.
 
-- [ Update date: 28/01/2022]firefox-95.03
-- [Update date: 28/12/2021] firefox-95.0.2
+- [ Update date: 28/01/2022]firefox-96.03
+- [Update date: 28/12/2021] firefox-96.0.2
 - [Update date: 16/11/2021] firefox-94.0.1
 - [Update date: 06/06/2021] firefox-89.0
 - [Update date: 18/11/2020] firefox-83.0
