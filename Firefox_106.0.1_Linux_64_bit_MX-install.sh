@@ -1,8 +1,8 @@
 #!/bin/bash
-# Última actualización: 20/10/2022
+# Última actualización: 05/12/2024
 cd /
 # Se descarga Firefox
-wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/106.0.1/linux-x86_64/es-MX/firefox-106.0.1.tar.bz2
+wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/133.0/linux-x86_64/es-MX/firefox-133.0.tar.bz2
 cd /usr/local/
 echo 'Se va a instalar en /usr/local/...'
 read -p "Ingresa el nombre del directorio principal de instalacion, si no existe se creará: " DIRINST
@@ -20,18 +20,18 @@ if [ -d $DIRINST ];
 		cd $DIRINST
 fi
 sleep 2
-mv /firefox-106.0.1.tar.bz2 /usr/local/$DIRINST
-tar jvxf firefox-106.0.1.tar.bz2
+mv /firefox-133.0.tar.bz2 /usr/local/$DIRINST
+tar jvxf firefox-133.0.tar.bz2
 #
 #App a Menú
 cd /usr/share/applications/
 touch firefox.desktop
 echo '[Desktop Entry]' > firefox.desktop
-echo 'Version=106.0.1' >> firefox.desktop
+echo 'Version=133.0' >> firefox.desktop
 echo 'Name=Firefox' >> firefox.desktop
 echo 'Comment=Suite Navegador Web' >> firefox.desktop
 echo 'Exec=/usr/local/'$DIRINST'/firefox/firefox' >> firefox.desktop
-echo 'Icon=/usr/local/'$DIRINST'/firefox/browser/chrome/icons/default/default16.png' >> firefox.desktop
+echo 'Icon=/usr/local/'$DIRINST'/firefox/browser/chrome/icons/default/default64.png' >> firefox.desktop
 echo 'Categories=Network;' >> firefox.desktop
 echo 'Terminal=false' >> firefox.desktop
 echo 'Type=Application' >> firefox.desktop
@@ -69,7 +69,7 @@ chmod 744 remove.sh
 touch README.txt
 echo 'Mozilla Firefox' > README.txt
 echo 'Idioma=es_MX' >> README.txt
-echo 'Version=106.0.1' >> README.txt
+echo 'Version=133.0' >> README.txt
 echo 'Arquitectura=64-bit' >> README.txt
 echo 'Esta es una instalación no invasiva.' >> README.txt
 echo 'Para desinstalar ejecute el fichero remove.sh como root.' >> README.txt
@@ -95,7 +95,7 @@ echo -ne '[=================================>      ](83.30%)\r';sleep 0.2
 echo -ne '[====================================>   ](91.64%)\r';sleep 0.2
 echo -ne '[=======================================>](100.00%)\r';sleep 0.2
 echo -ne '\n'
-rm -rf /usr/local/$DIRINST/firefox-106.0.1.tar.bz2
+rm -rf /usr/local/$DIRINST/firefox-133.0.tar.bz2
 if [ -d /home/*/.cache/mozilla/firefox/ ];
 	then
 		rm -rf /home/*/.cache/mozilla/firefox/
